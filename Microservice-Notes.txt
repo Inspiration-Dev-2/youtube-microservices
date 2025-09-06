@@ -1,0 +1,79 @@
+https://youtu.be/T-xCylkjSf8?si=dbVHHHmbL6_EjEl4
+https://www.youtube.com/playlist?list=PLaLqLOj2bk9ZV2RhqXzABUP5QSg42uJEs
+
+create folder shopping_ms
+
+create 3 folders inside shopping_ms folder customer , products, shopping & install below 3 commands in all 3 folders
+
+cd products
+npm init --y
+
+npm i dotenv express cors
+
+npm i nodemon -D
+
+create gateway folder
+cd gateway
+npm init --y
+
+npm i express cors express-http-proxy
+
+
+cd customer
+
+npm i mongoose
+npm i jsonwebtoken
+npm i uuid
+npm i winston
+npm i bcrypt
+
+
+cd products
+npm i axios
+
+
+*********Message Broker Introduced*******
+cd products
+npm i amqplib
+
+https://www.rabbitmq.com/docs/install-windows
+
+open powershell in  Administrator mode
+choco install rabbitmq
+
+
+open url in Edge
+http://localhost:15672/
+user = guest
+password = guest
+
+open cloud rabbitmq in edge browser
+
+cloudamqp.com
+
+******************************************
+cd..
+docker-compose up --build 
+
+Elastic Beanstack
+
+
+npm i jest -D
+npm i dotenv
+
+youtube-microservices
+
+*****How to remove from git***
+go to gitbash prompt
+rm -rf .git
+*************
+
+Step-1:git init
+Step-2:git add .
+Step-3:git commit -m "Initial Commit-Basic Configuration of Service"
+
+//Create the New Repository in git hub
+Step-4:git remote add origin https://github.com/Inspiration-Dev-2/youtube-microservices.git
+Step-5:git branch -M main
+Step-6:git push -u origin main
+
