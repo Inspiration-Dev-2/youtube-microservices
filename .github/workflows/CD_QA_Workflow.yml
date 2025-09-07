@@ -38,9 +38,9 @@ jobs:
         working-directory: ./shopping
         run: |
           touch .env
-          echo APP_SECRET=${{ QA_APP_SECRET }} >> .env
-          echo MONGODB_URI=${{ QA_SHOPPING_DB_URL }} >> .env
-          echo MESSAGE_BROKER_URL=${{ QA_MSG_QUEUE_URL }} >> .env
+          echo APP_SECRET=${{ secrets.QA_APP_SECRET }} >> .env
+          echo MONGODB_URI=${{ secrets.QA_SHOPPING_DB_URL }} >> .env
+          echo MESSAGE_BROKER_URL=${{ secrets.QA_MSG_QUEUE_URL }} >> .env
           echo EXCHANGE_NAME=ONLINE_STORE >> .env
           echo PORT=8003 >> .env
           cat .env
