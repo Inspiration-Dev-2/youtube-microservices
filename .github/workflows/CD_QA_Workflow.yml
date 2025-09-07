@@ -18,10 +18,10 @@ jobs:
       working-directory: ./customer
       run: |
         touch .env
-        echo APP_SECRET='jg_youtube_tutorial' >> .env
-        echo MONGODB_URI='mongodb://nosql-db/msytt_customer' >> .env
-        echo MESSAGE_BROKER_URL='amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy' >> .env
-        echo EXCHANGE_NAME='ONLINE_STORE' >> .env
+        echo APP_SECRET=jg_youtube_tutorial >> .env
+        echo MONGODB_URI=mongodb://nosql-db/msytt_customer >> .env
+        echo MESSAGE_BROKER_URL=amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy >> .env
+        echo EXCHANGE_NAME=ONLINE_STORE >> .env
         echo PORT=8001 >> .env
         cat .env
         
@@ -29,10 +29,10 @@ jobs:
       working-directory: ./products
       run: |
         touch .env
-        echo APP_SECRET='jg_youtube_tutorial' >> .env
-        echo MONGODB_URI='mongodb://nosql-db/msytt_product' >> .env
-        echo MESSAGE_BROKER_URL='amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy' >> .env
-        echo EXCHANGE_NAME='ONLINE_STORE' >> .env
+        echo APP_SECRET=jg_youtube_tutorial >> .env
+        echo MONGODB_URI=mongodb://nosql-db/msytt_product >> .env
+        echo MESSAGE_BROKER_URL=amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy >> .env
+        echo EXCHANGE_NAME=ONLINE_STORE >> .env
         echo PORT=8002 >> .env
         cat .env
 
@@ -40,10 +40,10 @@ jobs:
       working-directory: ./shopping
       run: |
         touch .env
-        echo APP_SECRET='jg_youtube_tutorial' >> .env
-        echo MONGODB_URI='mongodb://nosql-db/msytt_shopping' >> .env
-        echo MESSAGE_BROKER_URL='amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy' >> .env
-        echo EXCHANGE_NAME='ONLINE_STORE' >> .env
+        echo APP_SECRET=jg_youtube_tutorial >> .env
+        echo MONGODB_URI=mongodb://nosql-db/msytt_shopping >> .env
+        echo MESSAGE_BROKER_URL=amqps://sizzhwoy:5dLAuhXjOrXX3ZrmcFRYYjIvdE2E00yB@puffin.rmq2.cloudamqp.com/sizzhwoy >> .env
+        echo EXCHANGE_NAME=ONLINE_STORE >> .env
         echo PORT=8003 >> .env
         cat .env
         
