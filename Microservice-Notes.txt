@@ -1,6 +1,8 @@
 https://youtu.be/T-xCylkjSf8?si=dbVHHHmbL6_EjEl4
 https://www.youtube.com/playlist?list=PLaLqLOj2bk9ZV2RhqXzABUP5QSg42uJEs
-Testing
+
+https://www.youtube.com/watch?v=TOspmPPoR9E&list=PLaLqLOj2bk9Y0GmLjiXnX402SKYAGQiRr
+
 create folder shopping_ms
 
 create 3 folders inside shopping_ms folder customer , products, shopping & install below 3 commands in all 3 folders
