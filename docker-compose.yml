@@ -35,7 +35,7 @@ services:
       - "nosql-db"
     volumes: 
       - .:/app
-      - /app/products/node_modules
+      - /app/shopping/node_modules
 
   customer: 
     build:
@@ -49,7 +49,7 @@ services:
       - "nosql-db"
     volumes: 
       - .:/app
-      - /app/products/node_modules
+      - /app/customer/node_modules
 
   nginx-proxy:
     build:
