@@ -81,5 +81,5 @@ Step-4:git remote add origin https://github.com/Inspiration-Dev-2/youtube-micros
 Step-5:git branch -M main
 Step-6:git push -u origin main
 
-
+//****To remove latest commit****
 git reset --soft HEAD~1
